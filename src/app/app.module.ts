@@ -12,13 +12,15 @@ import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component'
 // Rutas
 import { APP_ROUTES } from './app.routes';
 
+// import { IncrementadorComponent } from './components/incrementador/incrementador.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
   ],
   imports: [
     APP_ROUTES,
